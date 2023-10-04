@@ -2198,8 +2198,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-    padding-top: 16.2rem;
-    padding-bottom: 9rem;
+    padding-top: 9.5rem;
+    padding-bottom: 5.4rem;
     background-color: #9146FF;
     color: #010507;
     position: relative;
@@ -2730,8 +2730,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-clients {
-    padding-top: 16.2rem;
-    padding-bottom: 16.8rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
     background-color: #e6e6e6;
     color: #757575;
     position: relative;
@@ -2936,8 +2936,8 @@ html.no-csstransitions .home-content__main {
     background-image: url("../images/contact-bg.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
-    padding-top: 15rem;
-    padding-bottom: 12rem;
+    padding-top: 7rem;
+    padding-bottom: 6rem;
     color: rgba(255, 255, 255, 0.5);
     position: relative;
 }
@@ -2986,17 +2986,6 @@ html.no-csstransitions .home-content__main {
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
     border-right: 5px solid #9146FF;
-}
-
-.contact__line {
-    display: block;
-    width: 2px;
-    height: 20.4rem;
-    background-color: #9146FF;
-    position: absolute;
-    left: 50%;
-    top: -10.2rem;
-    margin-left: -1px;
 }
 
 .contact-content {
