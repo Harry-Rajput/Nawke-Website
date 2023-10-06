@@ -141,17 +141,43 @@ h5, .h5, h6, .h6 {
     }
 }
 
+/* Base Styles */
 .hello-world, .hello-worldd {
     color: #9146FF;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif; /* Ensure you have Poppins font imported */
     font-size: 8rem;
     font-weight: 900;
-    line-height: 30px;
+    line-height: 1.2; /* Adjusted from 30px to make it more proportional */
 }
 
 .small-world, .small-worldd {
     font-size: 5rem;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif; /* Ensure you have Poppins font imported */
+}
+
+/* Responsive Styles */
+/* For tablet devices */
+@media only screen and (max-width: 768px) {
+    .hello-world, .hello-worldd {
+        font-size: 5rem;
+    }
+
+    .small-world, .small-worldd {
+        font-size: 3rem;
+    }
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 480px) {
+    .hello-world, .hello-worldd {
+        font-size: 3rem;
+    }
+
+    .small-world, .small-worldd {
+        font-size: 2rem;
+    }
+}
+
    
 }
 
