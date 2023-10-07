@@ -522,8 +522,11 @@ textarea {
 .col-full {
     width: 100%;
     font-family: Nunito;
+}
 
-    
+.aboutus-justify {
+        text-align: justify;
+        text-justify: inter-word;
 }
 
 
