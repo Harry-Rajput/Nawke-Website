@@ -165,6 +165,7 @@ a:hover, a:active {
 .hero-brief {
 text-align: justify;
 text-justify: inter-word;
+color: white;
 }
 
 /* ===================================================================
@@ -214,6 +215,7 @@ h5, .h5, h6, .h6 {
 
 .small-world, .small-worldd {
     font-size: 5rem;
+    color: grey;
     font-family: 'Poppins', sans-serif; /* Ensure you have Poppins font imported */
 }
 
