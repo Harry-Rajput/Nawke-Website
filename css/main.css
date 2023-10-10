@@ -1310,6 +1310,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .display-1--light {
     color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
 .display-2 {
@@ -1322,7 +1323,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .display-2--light {
     color: #FFFFFF;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
 }
 
 .subhead + .display-2 {
