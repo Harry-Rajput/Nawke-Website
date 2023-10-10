@@ -163,10 +163,34 @@ a:hover, a:active {
 }
 
 .hero-brief {
-text-align: justify;
-text-justify: inter-word;
-color: white;
+    text-align: left;
+    color: white;
+    font-family: nunito;
+    font-weight: 500;
+    font-size: 20px;
+    background: linear-gradient(135deg, #9146ff 0%, #b381ff 50%, #d9b3ff 100%);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 100%; /* Ensure it doesn't overflow the viewport */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .hero-brief {
+        font-size: 18px; /* Slightly smaller font for better readability on mobile */
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+    .hero-brief {
+        font-size: 16px; /* Even smaller font for very small screens */
+        padding: 10px; /* Further reduce padding */
+    }
+}
+
 
 /* ===================================================================
  * # typography & general theme styles
