@@ -162,6 +162,10 @@ a:hover, a:active {
     100% { background-position: 0 0; }
 }
 
+.hero-brief {
+text-align: justify;
+text-justify: inter-word;
+}
 
 /* ===================================================================
  * # typography & general theme styles
