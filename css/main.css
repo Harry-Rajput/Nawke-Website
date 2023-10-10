@@ -207,7 +207,7 @@ h5, .h5, h6, .h6 {
 .hello-world, .hello-worldd {
     color: #9146FF;
     font-family: 'Poppins', sans-serif; /* Ensure you have Poppins font imported */
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 900;
     line-height: 1.2; /* Adjusted from 30px to make it more proportional */
 }
