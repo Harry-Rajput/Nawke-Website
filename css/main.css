@@ -162,18 +162,6 @@ a:hover, a:active {
     100% { background-position: 0 0; }
 }
 
-.hero-brief {
-    text-align: left;
-    color: white;
-    font-family: nunito;
-    font-weight: 500;
-    font-size: 20px;
-    background: linear-gradient(135deg, #9146ff 0%, #b381ff 50%, #d9b3ff 100%);
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 100%; /* Ensure it doesn't overflow the viewport */
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
-}
 
 /* Mobile styles */
 @media (max-width: 768px) {
