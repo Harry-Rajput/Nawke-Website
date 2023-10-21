@@ -2479,6 +2479,8 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-text {
     margin-left: 7.8rem;
+    color: #454545;
+    font-family: 'Nunito';
 }
 
 .services-list .service-icon {
