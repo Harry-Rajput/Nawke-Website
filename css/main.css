@@ -1303,7 +1303,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .display-2 {
     font-family: "montserrat-medium", sans-serif;
-    font-size: 4.5rem;
+    font-size: 3rem;
     line-height: 1.255;
     color: #000000;
     margin-top: 0;
@@ -1320,7 +1320,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .subhead {
     font-family: "montserrat-bold", sans-serif;
-    font-size: 3rem;
+    font-size: 4.5rem;
     line-height: 1.333;
     text-transform: none;
     letter-spacing: .25rem;
