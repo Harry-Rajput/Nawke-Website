@@ -335,53 +335,37 @@ var clContactForm = function() {
 
             var sLoader = $('.submit-loader');
 
-            // Commenting out the AJAX submission for testing
-            /*
             $.ajax({
-
                 type: "POST",
                 url: "https://formsubmit.co/harry@nawke.com",
                 data: $(form).serialize(),
+                dataType: "json", // Expect a JSON response
                 beforeSend: function() { 
-
                     sLoader.slideDown("slow");
-
                 },
                 success: function(response) {
-
-                    // Check if message was sent
+                    sLoader.slideUp("slow"); 
                     if (response.success) {
-                        sLoader.slideUp("slow"); 
+                        // Display success message
                         $('.message-warning').fadeOut();
                         $('#contactForm').fadeOut();
-                        $('.message-success').fadeIn();
-                    }
-                    // There was an error
-                    else {
-                        sLoader.slideUp("slow"); 
+                        $('.message-success').fadeIn().html("Thanks! Your message has been sent.");
+                    } else {
+                        // Display error message
                         $('.message-warning').html(response.message);
                         $('.message-warning').slideDown("slow");
                     }
-
                 },
                 error: function() {
-
                     sLoader.slideUp("slow"); 
                     $('.message-warning').html("Something went wrong. Please try again.");
                     $('.message-warning').slideDown("slow");
-
                 }
-
             });
-            */
-            
-            // This line will allow the form to submit normally after validation
-            form.submit();
-
         }
-
     });
 };
+
 
    /* Animate On Scroll
     * ------------------------------------------------------ */
