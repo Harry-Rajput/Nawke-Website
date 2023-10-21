@@ -3214,7 +3214,7 @@ html.no-csstransitions .home-content__main {
 .message-warning, 
 .message-success {
     display: none;
-    background: #111111;
+    background: #9146FF;
     font-family: "montserrat-medium", sans-serif;
     font-size: 3rem;
     line-height: 2;
