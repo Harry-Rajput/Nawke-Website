@@ -1365,8 +1365,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     }
     .subhead {
         font-size: 3.5rem;
-        margin-top: -10rem;
-        padding-top: 8rem;
     }
 }
 
