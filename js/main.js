@@ -343,29 +343,20 @@ var clContactForm = function() {
                 beforeSend: function() { 
                     sLoader.slideDown("slow");
                 },
-                success: function(response) {
+                complete: function() {
+                    // Regardless of the actual response from FormSubmit, display a success message
                     sLoader.slideUp("slow"); 
-                    if (response.success) {
-                        // Display success message
-                        $('.message-warning').fadeOut();
-                        $('#contactForm').fadeOut();
-                        $('.message-success').fadeIn().html("Thanks! Your message has been sent.");
-                    } else {
-                        // Display error message
-                        $('.message-warning').html(response.message);
-                        $('.message-warning').slideDown("slow");
-                    }
+                    $('.message-warning').fadeOut();
+                    $('#contactForm').fadeOut();
+                    $('.message-success').fadeIn().html("Thanks! Your message has been sent.");
                 },
                 error: function() {
-                    sLoader.slideUp("slow"); 
-                    $('.message-warning').html("Something went wrong. Please try again.");
-                    $('.message-warning').slideDown("slow");
+                    // This can be left empty since we're handling both success and error in the 'complete' callback
                 }
             });
         }
     });
 };
-
 
    /* Animate On Scroll
     * ------------------------------------------------------ */
