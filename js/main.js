@@ -323,18 +323,20 @@
     };
 
 
-  /* Contact Form
+ /* Contact Form
  * ------------------------------------------------------ */
 var clContactForm = function() {
-
+    
     /* local validation */
     $('#contactForm').validate({
-
+    
         /* submit via ajax */
         submitHandler: function(form) {
 
             var sLoader = $('.submit-loader');
 
+            // Commenting out the AJAX submission for testing
+            /*
             $.ajax({
 
                 type: "POST",
@@ -371,6 +373,11 @@ var clContactForm = function() {
                 }
 
             });
+            */
+            
+            // This line will allow the form to submit normally after validation
+            form.submit();
+
         }
 
     });
