@@ -3215,7 +3215,7 @@ html.no-csstransitions .home-content__main {
 .message-success {
     display: none;
     background: #111111;
-    font-family: 'Montserrat';
+    font-family: "montserrat-medium", sans-serif;
     font-size: 3rem;
     line-height: 2;
     padding: 3rem;
