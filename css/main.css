@@ -3215,7 +3215,7 @@ html.no-csstransitions .home-content__main {
 .message-success {
     display: none;
     background: #111111;
-    font-size: 1.5rem;
+    font-size: 5rem;
     line-height: 2;
     padding: 3rem;
     margin-bottom: 3.6rem;
